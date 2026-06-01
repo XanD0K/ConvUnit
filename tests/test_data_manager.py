@@ -2,8 +2,8 @@ import pytest
 
 from unittest.mock import patch
 
-from unit_converter.data_manager import load_data, validate_data, add_to_log, clean_history, save_data, refactor_value, zero_division_checker
-from unit_converter.data_models import DataStore
+from src.unit_converter.data_manager import load_data, validate_data, add_to_log, clean_history, save_data, refactor_value, zero_division_checker
+from src.unit_converter.data_models import DataStore
 
 
 # Setup DataStore to be used on all tests that require DataStore

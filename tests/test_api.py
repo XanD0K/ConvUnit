@@ -2,7 +2,7 @@ import pytest
 
 from unittest.mock import patch
 
-from unit_converter.api import Converter
+from src.unit_converter.api import Converter
 
 
 # Setup Converter to be used on all tests
