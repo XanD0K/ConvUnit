@@ -3,8 +3,8 @@ import re
 
 from unittest.mock import patch
 
-from unit_converter.data_manager import load_data
-from unit_converter.data_models import DataStore, ConversionData, ManageGroupData, ManageTypeData, AliasesData, ChangeBaseData, validate_for_history, validate_args_number
+from src.unit_converter.data_manager import load_data
+from src.unit_converter.data_models import DataStore, ConversionData, ManageGroupData, ManageTypeData, AliasesData, ChangeBaseData, validate_for_history, validate_args_number
 
 
 # Setup DataStore to be used on all tests that require DataStore

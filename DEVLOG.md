@@ -8,7 +8,22 @@
 **Progress**
 
 
-## [2025-09-29] - Version 0.9.12
+## [2026-06-01] - Version 1.1.0
+**Plans**
+- Refactor code and prepare program to be a PyPI package
+
+**Challenges**
+- Understand packages' structure and functions
+- Refactor files, segregate and improving functions
+
+**Progress**
+- Created `src` directory to be the main directory used by the future package. It segregates the package' files from development files (e.g. `tests` directory)
+- Segregated `project.py` into multiple files, increasing code's readability and modularity
+- Improved JSON files, adding new unit types and aliases
+- Fixed bugs, cleaned code and improved readability
+
+
+## [2025-09-29] - Version 1.0.0
 **Plans**
 Make sure everything works before submission
 

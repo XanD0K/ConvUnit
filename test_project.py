@@ -3,8 +3,8 @@ import pytest
 from unittest.mock import patch
 
 from project import get_action, print_groups, print_history, print_types, conversion_logic, converter, converter_temp, converter_time, converter_time_2args, converter_time_3args, manage_group, manage_type, add_temp_type, manage_aliases, change_base_unit
-from unit_converter.data_manager import load_data
-from unit_converter.data_models import DataStore, ConversionData, ManageGroupData, ManageTypeData, AliasesData, ChangeBaseData
+from src.unit_converter.data_manager import load_data
+from src.unit_converter.data_models import DataStore, ConversionData, ManageGroupData, ManageTypeData, AliasesData, ChangeBaseData
 
 
 # Setup DataStore to be used on all tests that require DataStore

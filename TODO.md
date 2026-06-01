@@ -5,14 +5,13 @@
 
 
 ## Refactoring tasks
+- Improve error messages and code errors
 
 
 ## Testing
 
 
 ## BACKLOG
-- [ ] Add `money` group to allow currency conversion through API requests (https://data.ecb.europa.eu/help/api/data)
-- [ ] In `api.py` file, allow users to load a different data file
 
 
 ## DONE
@@ -20,7 +19,7 @@
 - [x] Improve Errors checking
 - [x] Centralize try-except block in `main`, making functions to just raise the exception
 - [x] Keep users inside program with `while` loop, until he decides to quit
-- [x] Allow users to modify the unit's dictionary by adding new groups/types (modifies `units.json` and `base_units.json`)
+- [x] Allow users to modify the unit's dictionary by adding new `groups`/`types` (modifies `units.json` and `base_units.json`)
 - [x] Move `units` dictionary to another file to keep `project.py` cleaner
 - [x] Use `json` library to open/save/close that new dictionary file, so that changes won't be lost
 - [x] Remove abrupt ending with `sys.exit` by adding `while` logic
@@ -29,7 +28,7 @@
 - [x] Create separate functions for each action
 - [x] Modify "add" action by adding more logic and validation checks to new groups (e.g. base unit, valid number)
 - [x] When adding new group/type, display base unit of that type so that users know in ehich unit he should calculate the conversion factor
-- [x] Add separate logic for temperature (for converting units and for adding new types)
+- [x] Add separate logic for temperature (for converting units and for adding new `types`)
 - [x] Fix converted value that always has 5 decimal values, even if all zeroes
 - [x] Improve inputs validation based on unit group
 - [x] Validate dictionary after importing/using it
@@ -73,3 +72,10 @@
 - [x] Polish code, improving readability
 - [x] Reestructure `project.py` file into multiple files to keep program cleaner
 - [x] Reestructure `final-project` directory
+- [x] Refactor `project.py` into multiple files, segregating CLI and interactive approaches
+- [x] Clean files and improve code before conversion into a package
+- [x] Changed program's intern functions to be displayed as hidden (with a `_` in the beggining of their names)
+- [x] Improve code structure to allow it's conversion into a package
+- [x] Refactored and cleaned all features
+- [x] Allow reset of unit's data (`JSON` files)
+- [x] Improved `change_base` and `manage_type`, fixing both features when group is "temperature"

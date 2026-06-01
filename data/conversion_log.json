@@ -1,1 +1,898 @@
-[]
+[
+    {
+        "date": "2026-05-30T11:52:41.269547",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "fahrenheit",
+        "amount": 10.0,
+        "result": 50.0
+    },
+    {
+        "date": "2026-05-30T11:52:43.327414",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "fahrenheit",
+        "amount": 100.0,
+        "result": 212.0
+    },
+    {
+        "date": "2026-05-30T11:52:53.307138",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "kelvin",
+        "amount": 10.0,
+        "result": 283.15
+    },
+    {
+        "date": "2026-05-30T11:52:54.628341",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "kelvin",
+        "amount": 100.0,
+        "result": 373.15
+    },
+    {
+        "date": "2026-05-30T11:53:03.298883",
+        "unit_group": "temperature",
+        "from_type": "fahrenheit",
+        "to_type": "celsius",
+        "amount": 10.0,
+        "result": -12.222222222222221
+    },
+    {
+        "date": "2026-05-30T11:53:09.809899",
+        "unit_group": "temperature",
+        "from_type": "fahrenheit",
+        "to_type": "celsius",
+        "amount": 100.0,
+        "result": 37.77777777777778
+    },
+    {
+        "date": "2026-05-30T11:53:12.983051",
+        "unit_group": "temperature",
+        "from_type": "fahrenheit",
+        "to_type": "kelvin",
+        "amount": 10.0,
+        "result": 260.92777777777775
+    },
+    {
+        "date": "2026-05-30T11:53:14.178604",
+        "unit_group": "temperature",
+        "from_type": "fahrenheit",
+        "to_type": "kelvin",
+        "amount": 100.0,
+        "result": 310.92777777777775
+    },
+    {
+        "date": "2026-05-30T12:00:50.114846",
+        "unit_group": "time",
+        "from_time": "seconds",
+        "to_time": "minutes",
+        "factor_time": 1.0,
+        "result": 0.016666666666666666
+    },
+    {
+        "date": "2026-05-30T12:01:00.755352",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "fahrenheit",
+        "amount": 1.0,
+        "result": 33.8
+    },
+    {
+        "date": "2026-05-30T12:05:20.769620",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "fahrenheit",
+        "amount": 10.0,
+        "result": 50.0
+    },
+    {
+        "date": "2026-05-30T12:05:27.653352",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "fahrenheit",
+        "amount": 100.0,
+        "result": 212.0
+    },
+    {
+        "date": "2026-05-30T12:05:31.713815",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "kelvin",
+        "amount": 10.0,
+        "result": 283.15
+    },
+    {
+        "date": "2026-05-30T12:05:32.828429",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "kelvin",
+        "amount": 100.0,
+        "result": 373.15
+    },
+    {
+        "date": "2026-05-30T12:05:36.775469",
+        "unit_group": "temperature",
+        "from_type": "fahrenheit",
+        "to_type": "celsius",
+        "amount": 10.0,
+        "result": -12.222222222222221
+    },
+    {
+        "date": "2026-05-30T12:05:37.852260",
+        "unit_group": "temperature",
+        "from_type": "fahrenheit",
+        "to_type": "celsius",
+        "amount": 100.0,
+        "result": 37.77777777777778
+    },
+    {
+        "date": "2026-05-30T12:05:45.483218",
+        "unit_group": "temperature",
+        "from_type": "fahrenheit",
+        "to_type": "kelvin",
+        "amount": 10.0,
+        "result": 260.92777777777775
+    },
+    {
+        "date": "2026-05-30T12:05:47.395081",
+        "unit_group": "temperature",
+        "from_type": "fahrenheit",
+        "to_type": "kelvin",
+        "amount": 100.0,
+        "result": 310.92777777777775
+    },
+    {
+        "date": "2026-05-30T12:05:53.597464",
+        "unit_group": "temperature",
+        "from_type": "kelvin",
+        "to_type": "celsius",
+        "amount": 10.0,
+        "result": -263.15
+    },
+    {
+        "date": "2026-05-30T12:05:55.112142",
+        "unit_group": "temperature",
+        "from_type": "kelvin",
+        "to_type": "celsius",
+        "amount": 100.0,
+        "result": -173.14999999999998
+    },
+    {
+        "date": "2026-05-30T12:05:58.608522",
+        "unit_group": "temperature",
+        "from_type": "kelvin",
+        "to_type": "fahrenheit",
+        "amount": 10.0,
+        "result": -441.66999999999996
+    },
+    {
+        "date": "2026-05-30T12:05:59.588944",
+        "unit_group": "temperature",
+        "from_type": "kelvin",
+        "to_type": "fahrenheit",
+        "amount": 100.0,
+        "result": -279.66999999999996
+    },
+    {
+        "date": "2026-05-30T12:38:52.312626",
+        "unit_group": "temperature",
+        "from_type": "fahrenheit",
+        "to_type": "kelvin",
+        "amount": 32.0,
+        "result": 273.15
+    },
+    {
+        "date": "2026-05-30T12:40:08.468777",
+        "unit_group": "temperature",
+        "from_type": "fahrenheit",
+        "to_type": "kelvin",
+        "amount": 32.0,
+        "result": 151.74999999999997
+    },
+    {
+        "date": "2026-05-30T12:58:32.836703",
+        "unit_group": "mass",
+        "from_type": "pounds",
+        "to_type": "grams",
+        "amount": 10.0,
+        "result": 4535.9237
+    },
+    {
+        "date": "2026-05-30T12:59:16.416767",
+        "unit_group": "mass",
+        "from_type": "pounds",
+        "to_type": "grams",
+        "amount": 10.0,
+        "result": 4535.9237
+    },
+    {
+        "date": "2026-05-30T14:51:23.210002",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "fahrenheit",
+        "amount": 10.0,
+        "result": 50.0
+    },
+    {
+        "date": "2026-05-30T14:51:25.266655",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "fahrenheit",
+        "amount": 100.0,
+        "result": 212.0
+    },
+    {
+        "date": "2026-05-30T14:51:30.563628",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "kelvin",
+        "amount": 10.0,
+        "result": 283.15
+    },
+    {
+        "date": "2026-05-30T14:51:31.983030",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "kelvin",
+        "amount": 100.0,
+        "result": 373.15
+    },
+    {
+        "date": "2026-05-30T14:51:37.342701",
+        "unit_group": "temperature",
+        "from_type": "fahrenheit",
+        "to_type": "celsius",
+        "amount": 10.0,
+        "result": -12.222222222222221
+    },
+    {
+        "date": "2026-05-30T14:51:39.369407",
+        "unit_group": "temperature",
+        "from_type": "fahrenheit",
+        "to_type": "celsius",
+        "amount": 100.0,
+        "result": 37.77777777777778
+    },
+    {
+        "date": "2026-05-30T14:51:44.541452",
+        "unit_group": "temperature",
+        "from_type": "fahrenheit",
+        "to_type": "kelvin",
+        "amount": 10.0,
+        "result": 260.92777777777775
+    },
+    {
+        "date": "2026-05-30T14:51:45.563863",
+        "unit_group": "temperature",
+        "from_type": "fahrenheit",
+        "to_type": "kelvin",
+        "amount": 100.0,
+        "result": 310.92777777777775
+    },
+    {
+        "date": "2026-05-30T14:51:52.079879",
+        "unit_group": "temperature",
+        "from_type": "kelvin",
+        "to_type": "celsius",
+        "amount": 10.0,
+        "result": -263.15
+    },
+    {
+        "date": "2026-05-30T14:51:56.031063",
+        "unit_group": "temperature",
+        "from_type": "kelvin",
+        "to_type": "celsius",
+        "amount": 100.0,
+        "result": -173.14999999999998
+    },
+    {
+        "date": "2026-05-30T14:52:01.260940",
+        "unit_group": "temperature",
+        "from_type": "kelvin",
+        "to_type": "fahrenheit",
+        "amount": 10.0,
+        "result": -441.66999999999996
+    },
+    {
+        "date": "2026-05-30T14:52:02.298244",
+        "unit_group": "temperature",
+        "from_type": "kelvin",
+        "to_type": "fahrenheit",
+        "amount": 100.0,
+        "result": -279.66999999999996
+    },
+    {
+        "date": "2026-05-30T14:53:55.739999",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "fahrenheit",
+        "amount": 10.0,
+        "result": 50.0
+    },
+    {
+        "date": "2026-05-30T14:53:55.847402",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "fahrenheit",
+        "amount": 100.0,
+        "result": 212.0
+    },
+    {
+        "date": "2026-05-30T14:53:55.960980",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "kelvin",
+        "amount": 10.0,
+        "result": 283.15
+    },
+    {
+        "date": "2026-05-30T14:53:56.060816",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "kelvin",
+        "amount": 100.0,
+        "result": 373.15
+    },
+    {
+        "date": "2026-05-30T14:53:56.163475",
+        "unit_group": "temperature",
+        "from_type": "fahrenheit",
+        "to_type": "celsius",
+        "amount": 10.0,
+        "result": -12.222222222222229
+    },
+    {
+        "date": "2026-05-30T14:53:56.264275",
+        "unit_group": "temperature",
+        "from_type": "fahrenheit",
+        "to_type": "celsius",
+        "amount": 100.0,
+        "result": 37.77777777777777
+    },
+    {
+        "date": "2026-05-30T14:53:56.365225",
+        "unit_group": "temperature",
+        "from_type": "fahrenheit",
+        "to_type": "kelvin",
+        "amount": 10.0,
+        "result": 260.92777777777775
+    },
+    {
+        "date": "2026-05-30T14:53:56.466640",
+        "unit_group": "temperature",
+        "from_type": "fahrenheit",
+        "to_type": "kelvin",
+        "amount": 100.0,
+        "result": 310.92777777777775
+    },
+    {
+        "date": "2026-05-30T14:53:56.568526",
+        "unit_group": "temperature",
+        "from_type": "kelvin",
+        "to_type": "celsius",
+        "amount": 10.0,
+        "result": -263.15
+    },
+    {
+        "date": "2026-05-30T14:53:56.673219",
+        "unit_group": "temperature",
+        "from_type": "kelvin",
+        "to_type": "celsius",
+        "amount": 100.0,
+        "result": -173.14999999999998
+    },
+    {
+        "date": "2026-05-30T14:53:56.775078",
+        "unit_group": "temperature",
+        "from_type": "kelvin",
+        "to_type": "fahrenheit",
+        "amount": 10.0,
+        "result": -441.66999999999996
+    },
+    {
+        "date": "2026-05-30T14:53:56.876107",
+        "unit_group": "temperature",
+        "from_type": "kelvin",
+        "to_type": "fahrenheit",
+        "amount": 100.0,
+        "result": -279.66999999999996
+    },
+    {
+        "date": "2026-05-30T14:55:20.077309",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "fahrenheit",
+        "amount": 10.0,
+        "result": 50.0
+    },
+    {
+        "date": "2026-05-30T14:55:20.182147",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "fahrenheit",
+        "amount": 100.0,
+        "result": 211.99999999999997
+    },
+    {
+        "date": "2026-05-30T14:55:20.293260",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "kelvin",
+        "amount": 10.0,
+        "result": 283.15
+    },
+    {
+        "date": "2026-05-30T14:55:20.404096",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "kelvin",
+        "amount": 100.0,
+        "result": 373.15
+    },
+    {
+        "date": "2026-05-30T14:55:20.506047",
+        "unit_group": "temperature",
+        "from_type": "fahrenheit",
+        "to_type": "celsius",
+        "amount": 10.0,
+        "result": -12.222222222222223
+    },
+    {
+        "date": "2026-05-30T14:55:20.610860",
+        "unit_group": "temperature",
+        "from_type": "fahrenheit",
+        "to_type": "celsius",
+        "amount": 100.0,
+        "result": 37.77777777777778
+    },
+    {
+        "date": "2026-05-30T14:55:20.717785",
+        "unit_group": "temperature",
+        "from_type": "fahrenheit",
+        "to_type": "kelvin",
+        "amount": 10.0,
+        "result": 260.92777777777775
+    },
+    {
+        "date": "2026-05-30T14:55:20.823975",
+        "unit_group": "temperature",
+        "from_type": "fahrenheit",
+        "to_type": "kelvin",
+        "amount": 100.0,
+        "result": 310.92777777777775
+    },
+    {
+        "date": "2026-05-30T14:55:20.926072",
+        "unit_group": "temperature",
+        "from_type": "kelvin",
+        "to_type": "celsius",
+        "amount": 10.0,
+        "result": -263.15
+    },
+    {
+        "date": "2026-05-30T14:55:21.035660",
+        "unit_group": "temperature",
+        "from_type": "kelvin",
+        "to_type": "celsius",
+        "amount": 100.0,
+        "result": -173.14999999999998
+    },
+    {
+        "date": "2026-05-30T14:55:21.140479",
+        "unit_group": "temperature",
+        "from_type": "kelvin",
+        "to_type": "fahrenheit",
+        "amount": 10.0,
+        "result": -441.66999999999996
+    },
+    {
+        "date": "2026-05-30T14:55:21.244388",
+        "unit_group": "temperature",
+        "from_type": "kelvin",
+        "to_type": "fahrenheit",
+        "amount": 100.0,
+        "result": -279.66999999999996
+    },
+    {
+        "date": "2026-05-31T13:28:41.588847",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "delisle",
+        "amount": 0.0,
+        "result": 150.0
+    },
+    {
+        "date": "2026-05-31T13:29:56.046373",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "delisle",
+        "amount": 0.0,
+        "result": 150.0
+    },
+    {
+        "date": "2026-05-31T13:29:56.153723",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "delisle",
+        "amount": 100.0,
+        "result": 2.842170943040401e-14
+    },
+    {
+        "date": "2026-05-31T13:29:56.259156",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "delisle",
+        "amount": -40.0,
+        "result": 210.0
+    },
+    {
+        "date": "2026-05-31T13:29:56.365831",
+        "unit_group": "temperature",
+        "from_type": "delisle",
+        "to_type": "celsius",
+        "amount": 150.0,
+        "result": -3.552713678800501e-15
+    },
+    {
+        "date": "2026-05-31T13:29:56.470723",
+        "unit_group": "temperature",
+        "from_type": "delisle",
+        "to_type": "celsius",
+        "amount": 0.0,
+        "result": 100.0
+    },
+    {
+        "date": "2026-05-31T13:29:56.577168",
+        "unit_group": "temperature",
+        "from_type": "fahrenheit",
+        "to_type": "delisle",
+        "amount": 32.0,
+        "result": 150.0
+    },
+    {
+        "date": "2026-05-31T13:29:56.682985",
+        "unit_group": "temperature",
+        "from_type": "delisle",
+        "to_type": "fahrenheit",
+        "amount": 150.0,
+        "result": 31.999999999999993
+    },
+    {
+        "date": "2026-05-31T13:29:59.932446",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "rankine",
+        "amount": 0.0,
+        "result": 491.67
+    },
+    {
+        "date": "2026-05-31T13:30:00.040049",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "rankine",
+        "amount": 100.0,
+        "result": 671.67
+    },
+    {
+        "date": "2026-05-31T13:30:00.154366",
+        "unit_group": "temperature",
+        "from_type": "rankine",
+        "to_type": "celsius",
+        "amount": 491.67,
+        "result": 0.0
+    },
+    {
+        "date": "2026-05-31T13:30:00.261424",
+        "unit_group": "temperature",
+        "from_type": "fahrenheit",
+        "to_type": "rankine",
+        "amount": 32.0,
+        "result": 491.67
+    },
+    {
+        "date": "2026-05-31T13:30:00.367872",
+        "unit_group": "temperature",
+        "from_type": "rankine",
+        "to_type": "fahrenheit",
+        "amount": 491.67,
+        "result": 32.0
+    },
+    {
+        "date": "2026-05-31T13:30:03.109943",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "reaumur",
+        "amount": 0.0,
+        "result": 0.0
+    },
+    {
+        "date": "2026-05-31T13:30:03.216322",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "reaumur",
+        "amount": 100.0,
+        "result": 79.99999999999999
+    },
+    {
+        "date": "2026-05-31T13:30:03.322189",
+        "unit_group": "temperature",
+        "from_type": "reaumur",
+        "to_type": "celsius",
+        "amount": 80.0,
+        "result": 100.0
+    },
+    {
+        "date": "2026-05-31T13:30:03.434015",
+        "unit_group": "temperature",
+        "from_type": "fahrenheit",
+        "to_type": "reaumur",
+        "amount": 32.0,
+        "result": 0.0
+    },
+    {
+        "date": "2026-05-31T13:30:06.391530",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "delisle",
+        "amount": -273.15,
+        "result": 559.7249999999999
+    },
+    {
+        "date": "2026-05-31T13:30:06.496664",
+        "unit_group": "temperature",
+        "from_type": "fahrenheit",
+        "to_type": "delisle",
+        "amount": -459.67,
+        "result": 559.725
+    },
+    {
+        "date": "2026-05-31T13:30:06.605008",
+        "unit_group": "temperature",
+        "from_type": "rankine",
+        "to_type": "delisle",
+        "amount": 0.0,
+        "result": 559.725
+    },
+    {
+        "date": "2026-05-31T13:30:06.711360",
+        "unit_group": "temperature",
+        "from_type": "delisle",
+        "to_type": "rankine",
+        "amount": 150.0,
+        "result": 491.67
+    },
+    {
+        "date": "2026-05-31T13:33:09.352366",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "delisle",
+        "amount": 0.0,
+        "result": 150.0
+    },
+    {
+        "date": "2026-05-31T13:33:09.457073",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "delisle",
+        "amount": 100.0,
+        "result": 2.842170943040401e-14
+    },
+    {
+        "date": "2026-05-31T13:33:09.576159",
+        "unit_group": "temperature",
+        "from_type": "fahrenheit",
+        "to_type": "delisle",
+        "amount": 32.0,
+        "result": 150.0
+    },
+    {
+        "date": "2026-05-31T13:33:09.681013",
+        "unit_group": "temperature",
+        "from_type": "delisle",
+        "to_type": "fahrenheit",
+        "amount": 150.0,
+        "result": 31.999999999999993
+    },
+    {
+        "date": "2026-05-31T13:33:09.787164",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "rankine",
+        "amount": 0.0,
+        "result": 491.67
+    },
+    {
+        "date": "2026-05-31T13:33:09.895115",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "rankine",
+        "amount": 100.0,
+        "result": 671.67
+    },
+    {
+        "date": "2026-05-31T13:33:09.998283",
+        "unit_group": "temperature",
+        "from_type": "rankine",
+        "to_type": "fahrenheit",
+        "amount": 491.67,
+        "result": 32.0
+    },
+    {
+        "date": "2026-05-31T13:33:10.106281",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "romer",
+        "amount": 0.0,
+        "result": 7.5
+    },
+    {
+        "date": "2026-05-31T13:33:10.212806",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "romer",
+        "amount": 100.0,
+        "result": 59.99999999999999
+    },
+    {
+        "date": "2026-05-31T13:33:10.332400",
+        "unit_group": "temperature",
+        "from_type": "romer",
+        "to_type": "fahrenheit",
+        "amount": 7.5,
+        "result": 32.0
+    },
+    {
+        "date": "2026-05-31T13:33:10.446840",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "newton",
+        "amount": 0.0,
+        "result": 0.0
+    },
+    {
+        "date": "2026-05-31T13:33:10.564702",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "newton",
+        "amount": 100.0,
+        "result": 33.0
+    },
+    {
+        "date": "2026-05-31T13:33:10.677737",
+        "unit_group": "temperature",
+        "from_type": "newton",
+        "to_type": "fahrenheit",
+        "amount": 0.0,
+        "result": 32.0
+    },
+    {
+        "date": "2026-05-31T13:33:29.678968",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "delisle",
+        "amount": 0.0,
+        "result": 149.99999999999994
+    },
+    {
+        "date": "2026-05-31T13:33:29.784378",
+        "unit_group": "temperature",
+        "from_type": "delisle",
+        "to_type": "celsius",
+        "amount": 150.0,
+        "result": -5.684341886080802e-14
+    },
+    {
+        "date": "2026-05-31T13:33:29.892601",
+        "unit_group": "temperature",
+        "from_type": "rankine",
+        "to_type": "delisle",
+        "amount": 491.67,
+        "result": 149.99999999999994
+    },
+    {
+        "date": "2026-05-31T13:33:29.997707",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "reaumur",
+        "amount": 0.0,
+        "result": 0.0
+    },
+    {
+        "date": "2026-05-31T13:33:30.103063",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "reaumur",
+        "amount": 100.0,
+        "result": 80.00000000000003
+    },
+    {
+        "date": "2026-05-31T13:33:30.210367",
+        "unit_group": "temperature",
+        "from_type": "reaumur",
+        "to_type": "rankine",
+        "amount": 0.0,
+        "result": 491.67
+    },
+    {
+        "date": "2026-05-31T13:33:30.316295",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "romer",
+        "amount": 0.0,
+        "result": 7.5
+    },
+    {
+        "date": "2026-05-31T13:33:30.422604",
+        "unit_group": "temperature",
+        "from_type": "romer",
+        "to_type": "rankine",
+        "amount": 7.5,
+        "result": 491.66999999999996
+    },
+    {
+        "date": "2026-05-31T13:33:30.526460",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "newton",
+        "amount": 0.0,
+        "result": 0.0
+    },
+    {
+        "date": "2026-05-31T13:33:30.632709",
+        "unit_group": "temperature",
+        "from_type": "newton",
+        "to_type": "rankine",
+        "amount": 0.0,
+        "result": 491.67
+    },
+    {
+        "date": "2026-05-31T13:34:03.683870",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "delisle",
+        "amount": 0.0,
+        "result": 150.0
+    },
+    {
+        "date": "2026-05-31T13:34:03.788825",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "rankine",
+        "amount": 0.0,
+        "result": 491.67
+    },
+    {
+        "date": "2026-05-31T13:34:03.892855",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "romer",
+        "amount": 0.0,
+        "result": 7.5
+    },
+    {
+        "date": "2026-05-31T13:36:59.007124",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "delisle",
+        "amount": 0.0,
+        "result": 150.0
+    },
+    {
+        "date": "2026-05-31T13:36:59.113192",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "rankine",
+        "amount": 0.0,
+        "result": 491.67
+    },
+    {
+        "date": "2026-05-31T13:36:59.230064",
+        "unit_group": "temperature",
+        "from_type": "celsius",
+        "to_type": "romer",
+        "amount": 1.0,
+        "result": 8.025
+    }
+]

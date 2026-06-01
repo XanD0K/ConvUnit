@@ -5,9 +5,9 @@ import sys
 
 from unittest.mock import patch
 
-from unit_converter.utils import get_users_input, get_unit_group, validate_unit_group, get_converter_units, get_amount, resolve_aliases, parse_time_input, check_time_is_none, get_seconds, parse_date_input, format_value, calculate_leap_years, is_leap, validate_date, get_days_from_month, get_index_from_month, gets_days_from_index, print_divider
-from unit_converter.data_manager import load_data
-from unit_converter.data_models import DataStore, ConversionData
+from src.unit_converter.utils import get_users_input, get_unit_group, validate_unit_group, get_converter_units, get_amount, resolve_aliases, parse_time_input, check_time_is_none, get_seconds, parse_date_input, format_value, calculate_leap_years, is_leap, validate_date, get_days_from_month, get_index_from_month, gets_days_from_index, print_divider
+from src.unit_converter.data_manager import load_data
+from src.unit_converter.data_models import DataStore, ConversionData
 
 
 # Setup DataStore to be used on all tests that require DataStore

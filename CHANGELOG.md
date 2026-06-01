@@ -10,7 +10,34 @@
 
 ### Removed
 
-## [0.9.21] - 2025-09-30
+
+## [1.1.0] - 2026-06-01
+### Added
+- Created `src/` to be the source directory for the future  package
+- Added `__main__.py` to prepare the PyPI package
+- Added option to reset conversion history log
+- Added feature `base` to display the base unit for a group
+- Improved and cleand `units.json` and `original_units.json` files by adding new unit types
+- Improved and cleaned `unit_aliases.json` file by adding and fixing units' aliases
+
+### Changed
+- Refactored `project.py` file into multiple files (`aliases.py`, `change_base.py`, `convert.py`, `displays.py`, `groups.py` and `manage_types.py`)
+- Segregated date and time conversion logic to its own file (`conver_time.py`)
+- Refactored `convert_time.py` by segregating `converter_time()`, `_converter_time_2args()` and `_converter_time_3args()` functions into multiple functiosn, and increasing file's modularity
+- Segregated interactive and CLi core logic from `main.py`, creating one file for each approach (`interactive.py` and `cli.py`)
+- Cleaned `api.py`, removing unnecessary verbosity
+- Moved date and time helper functions to `time_utils.py`
+- Changed `types` feature to display all types for all groups when no group is provided
+- Cleaned and fixed all classes on `data_models.py`
+- Changed the name of all functions that weren't public accessible to users to have a `_` in the beginning of their names
+
+### Fixed
+- Fixed `_save_data()` logic, removing unnecessary code
+- Fixed `_refactor_value()` function (used on `change_base` feature) to correctly refactor temperature factor and offset
+- Fixed `manage_types` feature by adding the correct value on `original_units.json` when adding a type with the base unit different from the original base unit
+
+
+## [1.0.0] - 2025-09-30
 ### Changed
 - Improved logic in `manage_type` and `manage_aliases` functions
 
@@ -52,9 +79,6 @@
 
 
 ## [0.9.18] - 2025-09-27
-### Changed
-- Moved `final-project` directory (the root directory) into a brand new `unit-converter` repository, dedicated exclusively to this program
-
 ### Removed
 - Removed `test_classes.py`, used for manually testing `Converter` class
 

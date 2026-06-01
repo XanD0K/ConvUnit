@@ -32,7 +32,6 @@ It uses lightweight JSON files for data storage with no external dependencies.
   - [Date & Time Conversion](#date--time-conversion)
 - [Files Overview](#files-overview)
 - [Design Choices](#design-choices)
-- [Development Docs](#development-docs)
 - [Contributing](#contributing)
 - [Acknowledgments](#acknowledgments)
 - [Future Plans](#future-plans)
@@ -460,7 +459,7 @@ On Interactive mode, enter `convert` or `c` and then `time` as the unit group, a
 
 ## Files Overview  
 This program is organized into a `unit-converter` repository, which is also the core directory of the program.  
- It's composed with `data`, `tests` and `unit_converter` subdirectories, and core files and development docs.
+It's composed with `data`, `tests` and `src` subdirectories, and core files and development docs.
 
 - **DATA FILES** (`data/`)
   - [base_units.json](data/base_units.json): contains a relationship between an unit_group and the base unit for that group.
@@ -477,11 +476,16 @@ This program is organized into a `unit-converter` repository, which is also the 
   - [test_data_models.py](tests/test_data_models.py): tests all functions in `data_models.py` file
   - [test_utils.py](tests/test_utils.py): tests all functions in `utils.py` file
 
-- **MODULE FILES** (`unit_converter/`)
+- **MODULE FILES** (`src/`)
   - [api.py](unit_converter/api.py): handles the API approach, to allow users to use the program by declaring a `Converter` object class. It will also be used to accomplish the goal of transforming this program into a Library in [`pypi.org`](https://pypi.org/).
   - [data_manager.py](unit_converter/data_manager.py): defines all functions responsible for loading, modifying and saving information on `.json` files.
   - [data_models.py](unit_converter/data_models.py): defines all classes used in the program with all logic responsible for validate those classes' attributes.
   - [utils.py](unit_converter/utils.py): contains all helper functions.
+
+- **DEVELOPMENT DOCS**
+  - [CHANGELOG.md](CHANGELOG.md): Versions and Updates
+  - [DEVLOG.md](DEVLOG.md): Development Process
+  - [TODO.md](TODO.md): Features and Goals
 
 - [project.py](project.py): core file of the program, containing the logic to handle CLI approach, for users that want to use the program through command-line arguments, as well as the logic for an interactive approach. It also contains all files that handles all actions available in the program
 - [test_project.py](test_project.py): tests all functions in `project.py` file
@@ -497,13 +501,6 @@ This program is organized into a `unit-converter` repository, which is also the 
 - I created multiple classes (located in `data_models.py`) to store data and values related to each action. It allowed to centralize all validation logic for each of those values, keeping all other files cleaner with their specific logic.
 - I created a unique logic for time conversion, segregated from the default conversion logic, because I wanted to allow multiple input formats. Despite that, I kept all under the same "convert" command so that it doesn't get too segregated, allowing users to focus on which command they want to use, without getting overcomplicated.
 - In API mode, all actions return the output message, without displaying it! It means that when a class method is called, the action is triggered, but is up to the users to decide if they want to print it. By assigning that method call to a variable, they can also decide where they want to print that message.
----
-
-
-## Development Docs
-- [CHANGELOG.md](CHANGELOG.md): Versions and Updates
-- [DEVLOG.md](DEVLOG.md): Development Process
-- [TODO.md](TODO.md): Features and Goals
 ---
 
 

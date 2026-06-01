@@ -1,78 +1,114 @@
 {
     "length": {
-        "meters": 1.0,
+        "astronomical_units": 149597870700,
         "centimeters": 0.01,
-        "millimeters": 0.001,
-        "kilometers": 1000.0,
         "feet": 0.3048,
         "inches": 0.0254,
-        "yards": 0.9144,
+        "kilometers": 1000.0,
+        "light_years": 9.4607304725808e15,
+        "meters": 1.0,
         "miles": 1609.344,
-        "nautical_miles": 1852.001
+        "millimeters": 0.001,
+        "nautical_miles": 1852.0,
+        "yards": 0.9144
     },
     "time": {
-        "seconds": 1.0,
-        "minutes": 60.0,
-        "hours": 3600.0,
-        "days": 86400.0,
-        "weeks": 604800.0,
-        "months": 2592000.0,
-        "years": 31557600.0,
-        "decades": 315576000.0,
         "centuries": 3155760000.0,
+        "days": 86400.0,
+        "decades": 315576000.0,
+        "fortnights": 1209600,
+        "hours": 3600.0,
+        "microseconds": 1e-06,
         "milliseconds": 0.001,
-        "microseconds": 1e-06
+        "minutes": 60.0,
+        "months": 2592000.0,
+        "seconds": 1.0,
+        "weeks": 604800.0,
+        "years": 31557600.0
     },
     "mass": {
-        "kilograms": 1.0,
+        "carats": 0.0002,
         "grams": 0.001,
+        "kilograms": 1.0,
         "milligrams": 1e-06,
+        "ounce": 0.028349523125,
+        "pounds": 0.45359237,
+        "slugs": 14.59390,
+        "stones": 6.35029318,
         "tonne": 1000,
-        "us_ton": 907.1847,
-        "pounds": 0.4535924,
-        "ounce": 0.02834952
+        "us_ton": 907.18474
     },
     "temperature": {
         "celsius": [
             1.0,
             0.0
         ],
-        "kelvin": [
-            1.0,
-            273.15
+        "delisle": [
+            -1.5,
+            150.0
         ],
         "fahrenheit": [
             1.8,
             32.0
+        ],
+        "kelvin": [
+            1.0,
+            273.15
+        ],
+        "newton": [
+            0.30303,
+            0.0
+        ],
+        "rankine": [
+            1.8,
+            491.67
+        ],
+        "reaumur": [
+            0.8,
+            0.0
+        ],
+        "romer": [
+            0.525,
+            7.5
         ]
     },
     "volume": {
+        "cubic_centimeters": 0.001,
+        "cubic_feet": 28.316846592,
+        "cubic_inches": 0.016387064,
+        "cubic_meters": 1000,
+        "cups": 0.2365875,
+        "fluid_ounces": 0.0295735295625,
+        "gallons": 3.785411784,
         "liters": 1.0,
         "milliliters": 0.001,
-        "cups": 0.2365875,
-        "teaspoons": 0.004928906,
-        "gallons": 3.7854,
-        "cubic_centimeters": 0.001,
-        "cubic_meters": 1000
+        "pints": 0.473176473,
+        "quarts": 0.946352946,
+        "tablespoons": 0.01478676478125,
+        "teaspoons": 0.004928906
     },
     "area": {
-        "square_meters": 1.0,
-        "square_centimeters": 0.0001,
-        "square_millimeters": 1e-06,
-        "square_inches": 0.00064516,
-        "square_feet": 0.09290304,
-        "square_miles": 2589988,
-        "acres": 4046.86,
+        "acres": 4046.8564224,
+        "are": 100,
         "hectares": 10000,
-        "are": 100
+        "square_centimeters": 0.0001,
+        "square_feet": 0.09290304,
+        "square_inches": 0.00064516,
+        "square_kilometers": 1000000,
+        "square_meters": 1.0,
+        "square_miles": 2589988.110336,
+        "square_millimeters": 1e-06,
+        "square_yards": 0.83612736
     },
     "speed": {
-        "kilometers_per_hour": 1.0,
-        "meters_per_second": 3.6,
-        "kilometers_per_second": 3600,
-        "miles_per_hour": 1.609344,
         "feet_per_second": 1.09728,
-        "knots": 1.852001,
-        "mach": 1234.8
+        "mach": 1234.8,
+        "meters_per_second": 3.6,
+        "miles_per_hour": 1.609344,
+        "miles_per_second": 5793.6384,
+        "kilometers_per_hour": 1.0,
+        "kilometers_per_second": 3600,
+        "knots": 1.852,
+        "speed_of_light": 1079252848.8
     }
 }
