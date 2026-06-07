@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "convunit"
-version = "1.0.0"
+version = "1.1.0"
 description = "A flexible unit conversion tool with support for custom groups, types, aliases, and date/time conversions."
 readme = "README.md"
 license = {text = "MIT"}

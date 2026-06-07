@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: convunit
-Version: 1.0.0
+Version: 1.1.0
 Summary: A flexible unit conversion tool with support for custom groups, types, aliases, and date/time conversions.
 Author-email: "Alexandre D. Ferrari" <element_trading_47@icloud.com>
 License: MIT
@@ -32,6 +32,9 @@ Dynamic: license-file
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Code style: Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
+---
+
+
 ## Description
 A flexible unit conversion tool written in Python that supports multiple categories (length, mass, temperature, time, volume, area, and speed), with support for custom units, aliases, base unit changes, and conversion history.
 
@@ -58,38 +61,9 @@ Three ways to use it:
 ---
 
 
-## How to Run ConvUnit
-ConvUnit can be executed in different ways depending on whether you have installed the package or not.
-
-### Without installing (development)
-
-```bash
-python -m src.convunit
-```
-
-### After installing the package (recommended)
-```bash
-# Install in editable mode
-pip install -e .
-
-# Interactive mode
-python -m convunit
-
-# CLI mode
-python -m convunit convert length meters feet 10
-
-# Alternative: use the command directly
-convunit convert length meters feet 10
-```
-> **Note:** All examples in this document use `python -m src.convunit` (development mode). If you have installed the package, replace it with `python -m convunit` or just `convunit`.
-
----
-
-
 ## Table of Contents
 - [Description](#description)
 - [Features](#features)
-- [How to Run ConvUnit](#how-to-run-convunit)
 - [Installation](#installation)
 - [Quick Start](#quick-start)
 - [Usage](#usage)
@@ -106,21 +80,22 @@ convunit convert length meters feet 10
 
 
 ## Installation
-ConvUnit is built using only Python's standard libraries, so it has **no external dependencies**.
 
-Interactive and CLI approaches require you to clone the repository:
+ConvUnit has one runtime dependency: `platformdirs>=4.0` (used to locate the user configuration directory in a cross-platform way). All other code uses only Python's standard library.
 
-```bash
-git clone https://github.com/XanD0K/ConvUnit.git
-cd convunit
-```
-
-For API approach, you can import and use it directly in your Python scripts:
+### Normal Installation (recommended)
 
 ```bash
-from convunit import Converter
-converter = Converter()
+pip install convunit
 ```
+
+After installation, all modes work out of the box:
+
+- **Interactive mode:** `python -m convunit`
+- **CLI mode:** `convunit convert length meters feet 10`
+- **Python API:** `from convunit import Converter`
+
+> **Note for developers:** If you cloned the repository but prefer not to install the package with `pip install -e .`, you can still run it with `python -m src.convunit`.
 
 ---
 
@@ -134,39 +109,31 @@ pip install convunit
 # Interactive mode
 python -m convunit
 
-# CLI mode
+# CLI mode (example)
 python -m convunit convert length meters feet 10
 
-# Alternative: use the command directly
+# Alternative: use the 'convunit' command directly
 convunit convert length meters feet 10
+
+# API mode
+from convunit import Converter
+converter = Converter()
 ```
+> **Note:** To launch interactive mode after installation, use `python -m convunit`. Running just `convunit` (without any subcommand) will show the help message instead of starting interactive mode.
 
 ### For Developers
+If you want to **modify the source code**, add new features, fix bugs, or contribute to the project, you need to clone the repository and install it in **editable mode** (recommended):
+
 ```bash
 # Clone the repository
 git clone https://github.com/XanD0K/ConvUnit.git
-cd convunit
+cd ConvUnit
 
-# --- Without installing the package ---
-# Interactive mode
-python -m src.convunit
-
-# CLI mode
-python -m src.convunit convert length meters feet 10
-
-# --- After installing the package (recommended) ---
-# Install in editable mode
+# Install in editable mode (recommended)
 pip install -e .
-
-# Interactive mode
-python -m convunit
-
-# CLI mode
-python -m convunit convert length meters feet 10
-
-# Alternative: use the command directly
-convunit convert length meters feet 10
 ```
+
+Then you can use the project normally as shown above.
 
 ---
 
@@ -177,7 +144,7 @@ ConvUnit supports three ways of use:
 ### 1. **Interactive Mode**
 Run the following command:
 ```bash
-python -m src.convunit
+python -m convunit
 ```
 
 Just enter the program with the command above and follow the on-screen instructions.  
@@ -187,17 +154,17 @@ Type `quit` (`q`) or `exit` (`e`) to exit.
 You can run commands directly from the terminal:
 
 ```bash
-python -m src.convunit groups
-python -m src.convunit convert length meters feet 10
-python -m src.convunit history --limit 20
-python -m src.convunit types length --all
+python -m convunit groups
+python -m convunit convert length meters feet 10
+python -m convunit history --limit 20
+python -m convunit types length --all
 ```
 
 Most commands support the `--help` flag to see available options and flags:
 
 ```bash
-python -m src.convunit --help
-python -m src.convunit history --help
+python -m convunit --help
+python -m convunit history --help
 ```
 
 ### 3. **API Mode (Python Library)**
@@ -212,12 +179,12 @@ print(converter.convert("length", "meters", "feet", 10))
 print(converter.history(limit=10))
 ```
 
-> **Note:** Do not run `python src/convunit/main.py` directly. It will cause import errors due to relative imports. Always use the `-m` flag as shown above.  
+> **Note:** Do not run `python src/convunit/main.py` directly (it will cause import errors due to relative imports). Use `python -m src.convunit` or install the package instead.
 > **Note:** For complete usage instructions, detailed command references and all Date & Time formats, see **[USAGE.md](USAGE.md)**.
 
 
 ## Date & Time Conversion
-ConvUnit has powerful support for date and time conversions with flexible input formats, including differences between dates, months, and times, plus summing multiple units. The time parser also accepts non-standard values (e.g. `50h:350m:780s`).
+ConvUnit has powerful support for date and time conversions with flexible input formats, including differences between dates, months, and times, plus summing multiple units.
 
 See **[USAGE.md](USAGE.md)** for the full list of supported formats and detailed examples.
 
@@ -225,7 +192,7 @@ See **[USAGE.md](USAGE.md)** for the full list of supported formats and detailed
 
 **Interactive Mode:**
   ```bash
-  python -m src.convunit
+  python -m convunit
   convert
   time
   5 years 10 months 10 days 8 hours seconds
@@ -233,7 +200,7 @@ See **[USAGE.md](USAGE.md)** for the full list of supported formats and detailed
 
 **CLI Mode**
   ```bash
-  python -m src.convunit convert time 5 years 10 months 10 days hours
+  python -m convunit convert time 5 years 10 months 10 days hours
   ```
 
 **API Mode**
@@ -241,8 +208,6 @@ See **[USAGE.md](USAGE.md)** for the full list of supported formats and detailed
   result = converter.convert("time", time_input="5 years 10 months 10 days 8 hours seconds")
   print(result)
   ```
-
-> **Note:** Date difference calculations use Python's `datetime` module for accuracy (including leap years). Single date conversions use approximate year (365.2425 days) and month (30.436875 days) values for simplicity.
 
 ---
 
@@ -252,7 +217,7 @@ See **[USAGE.md](USAGE.md)** for the full list of supported formats and detailed
 ```plaintext
 convunit/
 ├── src/
-│   └── convunit/            # Main package
+│   └── convunit/                  # Main package
 │       ├── data/                  # JSON data files
 │       │   ├── base_units.json
 │       │   ├── conversion_log.json
