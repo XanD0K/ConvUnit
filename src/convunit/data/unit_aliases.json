@@ -1,0 +1,385 @@
+{
+    "length": {
+        "au": "astronomical_units",
+        "astronomicalunit": "astronomical_units",
+        "astronomicalunits": "astronomical_units",
+        "astronomical_unit": "astronomical_units",
+        "astronomical_units": "astronomical_units",
+
+        "cm": "centimeters",
+        "centimeter": "centimeters",
+        "centimetre": "centimeters",
+        "centimetres": "centimeters",
+        "centimeters": "centimeters",
+
+        "ft": "feet",
+        "foot": "feet",
+        "feet": "feet",
+
+        "in": "inches",
+        "inch": "inches",
+        "inches": "inches",
+
+        "km": "kilometers",
+        "kilometer": "kilometers",
+        "kilometre": "kilometers",
+        "kilometres": "kilometers",
+        "kilometers": "kilometers",
+
+        "ly": "light_years",
+        "lightyear": "light_years",
+        "lightyears": "light_years",
+        "light_year": "light_years",
+        "light_years": "light_years",
+
+        "m": "meters",
+        "meter": "meters",
+        "metre": "meters",
+        "metres": "meters",
+        "meters": "meters",
+
+        "mm": "millimeters",
+        "millimeter": "millimeters",
+        "millimetre": "millimeters",
+        "millimetres": "millimeters",
+        "millimeters": "millimeters",
+
+        "mi": "miles",
+        "mile": "miles",
+        "miles": "miles",
+
+        "nm": "nautical_miles",
+        "nmi": "nautical_miles",
+        "nmiles": "nautical_miles",
+        "nautical_mile": "nautical_miles",
+        "nautical_miles": "nautical_miles",
+        
+        "yd": "yards",
+        "yds": "yards",
+        "yard": "yards",
+        "yards": "yards"
+    },
+    "time": {
+        "c": "centuries",
+        "cs": "centuries",
+        "cent": "centuries",
+        "cen": "centuries",
+        "century": "centuries",
+        "centuries": "centuries",
+
+        "d": "days",
+        "day": "days",
+        "days": "days",
+
+        "de": "decades",
+        "decade": "decades",
+        "decades": "decades",
+
+        "fn": "fortnights",
+        "fort": "fortnights",
+        "fortnight": "fortnights",
+        "fortnights": "fortnights",
+
+        "h": "hours",
+        "hr": "hours",
+        "hrs": "hours",
+        "hour": "hours",
+        "hours": "hours",
+
+        "us": "microseconds",
+        "usec": "microseconds",
+        "microsecond": "microseconds",
+        "microseconds": "microseconds",
+
+        "ms": "milliseconds",
+        "msec": "milliseconds",
+        "msecs": "milliseconds",
+        "millisecond": "milliseconds",
+        "milliseconds": "milliseconds",
+
+        "min": "minutes",
+        "mins": "minutes",
+        "minute": "minutes",
+        "minutes": "minutes",
+
+        "m": "months",
+        "mo": "months",
+        "mos": "months",
+        "month": "months",
+        "months": "months",
+
+        "s": "seconds",
+        "sec": "seconds",
+        "secs": "seconds",
+        "second": "seconds",
+        "seconds": "seconds",
+
+        "w": "weeks",
+        "wk": "weeks",
+        "week": "weeks",
+        "weeks": "weeks",
+
+        "y": "years",
+        "yr": "years",
+        "yrs": "years",
+        "year": "years",
+        "years": "years"
+    },
+    "mass": {
+        "ct": "carats",
+        "carat": "carats",
+        "carats": "carats",
+
+        "g": "grams",
+        "gram": "grams",
+        "grams": "grams",
+
+        "kg": "kilograms",
+        "kilogram": "kilograms",
+        "kilograms": "kilograms",
+
+        "lb": "pounds",
+        "lbs": "pounds",
+        "pound": "pounds",
+        "pounds": "pounds",
+
+        "mg": "milligrams",
+        "milligram": "milligrams",
+        "milligrams": "milligrams",
+
+        "oz": "ounce",
+        "ounce": "ounce",
+        "ounces": "ounce",
+
+        "slug": "slugs",
+        "slugs": "slugs",
+
+        "st": "stones",
+        "stone": "stones",
+        "stones": "stones",
+
+        "t": "tonne",
+        "tn": "tonne",
+        "ton": "tonne",
+        "tons": "tonne",
+        "tonne": "tonne",
+        "tonnes": "tonne",
+
+        "ust": "us_ton",
+        "us_ton": "us_ton",
+        "uston": "us_ton",
+        "short_ton": "us_ton"
+    },
+    "temperature": {
+        "c": "celsius",
+        "cel": "celsius",
+        "cels": "celsius",
+        "celsius": "celsius",
+
+        "de": "delisle",
+        "del": "delisle",
+        "delisle": "delisle",
+
+        "f": "fahrenheit",
+        "fah": "fahrenheit",
+        "fahren": "fahrenheit",
+        "fahrenheit": "fahrenheit",
+
+        "k": "kelvin",
+        "kel": "kelvin",
+        "kelvin": "kelvin",
+
+        "n": "newton",
+        "new": "newton",
+        "newton": "newton",
+
+        "r": "rankine",
+        "ran": "rankine",
+        "rank": "rankine",
+        "rankine": "rankine",
+
+        "re": "reaumur",
+        "rea": "reaumur",
+        "reaumur": "reaumur",
+
+        "ro": "romer",
+        "rom": "romer",
+        "romer": "romer"
+    },
+    "volume": {
+        "cm3": "cubic_centimeters",
+        "cc": "cubic_centimeters",
+        "cubic_centimeter": "cubic_centimeters",
+        "cubic_centimetre": "cubic_centimeters",
+        "cubic_centimetres": "cubic_centimeters",
+        "cubic_centimeters": "cubic_centimeters",
+
+        "ft3": "cubic_feet",
+        "cuft": "cubic_feet",
+        "cubic_foot": "cubic_feet",
+        "cubic_feet": "cubic_feet",
+
+        "in3": "cubic_inches",
+        "cuin": "cubic_inches",
+        "cubic_inch": "cubic_inches",
+        "cubic_inches": "cubic_inches",
+
+        "m3": "cubic_meters",
+        "cbm": "cubic_meters",
+        "cum": "cubic_meters",
+        "cubic_meter": "cubic_meters",
+        "cubic_metre": "cubic_meters",
+        "cubic_metres": "cubic_meters",
+        "cubic_meters": "cubic_meters",
+
+        "c": "cups",
+        "cup": "cups",
+        "cups": "cups",
+
+        "fl_oz": "fluid_ounces",
+        "floz": "fluid_ounces",
+        "fluid_ounce": "fluid_ounces",
+        "fluid_ounces": "fluid_ounces",
+
+        "gal": "gallons",
+        "gallon": "gallons",
+        "gallons": "gallons",
+
+        "l": "liters",
+        "liter": "liters",
+        "litre": "liters",
+        "litres": "liters",
+        "liters": "liters",
+
+        "ml": "milliliters",
+        "milliliter": "milliliters",
+        "millilitre": "milliliters",
+        "millilitres": "milliliters",
+        "milliliters": "milliliters",
+
+        "pt": "pints",
+        "pint": "pints",
+        "pints": "pints",
+
+        "qt": "quarts",
+        "quart": "quarts",
+        "quarts": "quarts",
+
+        "tbsp": "tablespoons",
+        "tblsp": "tablespoons",
+        "tablespoon": "tablespoons",
+        "tablespoons": "tablespoons",
+
+        "tsp": "teaspoons",
+        "tspn": "teaspoons",
+        "ts": "teaspoons",
+        "teaspoon": "teaspoons",
+        "teaspoons": "teaspoons"
+    },
+    "area": {
+        "ac": "acres",
+        "acr": "acres",
+        "acre": "acres",
+        "acres": "acres",
+
+        "a": "are",
+        "are": "are",
+
+        "ha": "hectares",
+        "hectare": "hectares",
+        "hectares": "hectares",
+
+        "cm2": "square_centimeters",
+        "sqcm": "square_centimeters",
+        "square_centimeter": "square_centimeters",
+        "square_centimetre": "square_centimeters",
+        "square_centimetres": "square_centimeters",
+        "square_centimeters": "square_centimeters",
+
+        "ft2": "square_feet",
+        "sqft": "square_feet",
+        "square_foot": "square_feet",
+        "square_feet": "square_feet",
+
+        "in2": "square_inches",
+        "sqin": "square_inches",
+        "square_inch": "square_inches",
+        "square_inches": "square_inches",
+
+        "km2": "square_kilometers",
+        "sqkm": "square_kilometers",
+        "square_kilometer": "square_kilometers",
+        "square_kilometre": "square_kilometers",
+        "square_kilometres": "square_kilometers",
+        "square_kilometers": "square_kilometers",
+
+        "m2": "square_meters",
+        "sqm": "square_meters",
+        "square_meter": "square_meters",
+        "square_metre": "square_meters",
+        "square_metres": "square_meters",
+        "square_meters": "square_meters",
+
+        "mi2": "square_miles",
+        "sqmi": "square_miles",
+        "square_mile": "square_miles",
+        "square_miles": "square_miles",
+
+        "mm2": "square_millimeters",
+        "sqmm": "square_millimeters",
+        "square_millimeter": "square_millimeters",
+        "square_millimetre": "square_millimeters",
+        "square_millimetres": "square_millimeters",
+        "square_millimeters": "square_millimeters",
+
+        "yd2": "square_yards",
+        "sqyd": "square_yards",
+        "square_yard": "square_yards",
+        "square_yards": "square_yards"
+    },
+    "speed": {
+        "fps": "feet_per_second",
+        "foot_per_second": "feet_per_second",
+        "feet_per_second": "feet_per_second",
+        
+        "km/h": "kilometers_per_hour",
+        "kilometer_per_hour": "kilometers_per_hour",
+        "kilometre_per_hour": "kilometers_per_hour",
+        "kilometres_per_hour": "kilometers_per_hour",
+        "kilometers_per_hour": "kilometers_per_hour",
+
+        "km/s": "kilometers_per_second",
+        "kilometer_per_second": "kilometers_per_second",
+        "kilometre_per_second": "kilometers_per_second",
+        "kilometres_per_second": "kilometers_per_second",
+        "kilometers_per_sec": "kilometers_per_second",
+        "kilometers_per_second": "kilometers_per_second",
+
+        "kn": "knots",
+        "kt": "knots",
+        "kts": "knots",
+        "knot": "knots",
+        "knots": "knots",
+
+        "mach": "mach",
+
+        "m/s": "meters_per_second",
+        "meter_per_second": "meters_per_second",
+        "metre_per_second": "meters_per_second",
+        "metres_per_second": "meters_per_second",
+        "meters_per_second": "meters_per_second",
+
+        "mph": "miles_per_hour",
+        "mile_per_hour": "miles_per_hour",
+        "miles_per_hour": "miles_per_hour",
+
+        "mi/s": "miles_per_second",
+        "mps": "miles_per_second",
+        "mile_per_second": "miles_per_second",
+        "miles_per_second": "miles_per_second",
+
+        "c": "speed_of_light",
+        "light_speed": "speed_of_light",
+        "speed_of_light": "speed_of_light"
+    }
+}

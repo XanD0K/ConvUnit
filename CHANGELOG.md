@@ -11,6 +11,26 @@
 ### Removed
 
 
+## [1.2.1] - 2026-06-06
+### Added
+- Created `errors.py` file
+- Added `__all__` on files
+- Created `USAGE.md` for better explanation of how all features work, keeping `README.md` cleaner
+- Added aliases for remainder methods on `api.py`
+- Added `pyptoject.toml` file
+- Added the `unitconverter` command in the `pyproject.toml` file
+- Added `LICENSE` file
+
+### Changed
+- Changed raised exceptions to new custom values
+- Updated `README.md` file to program's newest version
+- Improved `data_manager.py` by using `platformdirs` and `importlib.resources` to retrieves directory's path
+- Changed program's name to `ConvUnit` to matches available package's name
+
+### Fixed
+- Fixed and improved test files (`tests/`)
+
+
 ## [1.1.0] - 2026-06-01
 ### Added
 - Created `src/` to be the source directory for the future  package

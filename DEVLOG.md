@@ -8,6 +8,17 @@
 **Progress**
 
 
+## [2026-06-06] - Version 1.2.0
+**Plans**
+Last changes before PyPI package
+
+**Challenges**
+Understand structure and files needed to transform a project into a package
+
+**Progress**
+- Created `pyproject.toml` file with all informations needed 
+
+
 ## [2026-06-01] - Version 1.1.0
 **Plans**
 - Refactor code and prepare program to be a PyPI package

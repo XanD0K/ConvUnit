@@ -5,13 +5,13 @@
 
 
 ## Refactoring tasks
-- Improve error messages and code errors
 
 
 ## Testing
 
 
 ## BACKLOG
+- Improve `_parse_time_input()`
 
 
 ## DONE
@@ -79,3 +79,5 @@
 - [x] Refactored and cleaned all features
 - [x] Allow reset of unit's data (`JSON` files)
 - [x] Improved `change_base` and `manage_type`, fixing both features when group is "temperature"
+- [x] Transformed program into a PyPI's package
+- [x] Improve error messages and code errors
