@@ -24,7 +24,7 @@ The interactive mode provides a guided, menu-driven experience. It is ideal for 
 ### Starting Interactive Mode
 
 ```bash
-python -m src.convunit
+python -m convunit
 ```
 
 Once inside, type any available command and follow the prompts.  
@@ -49,7 +49,7 @@ Type `quit` (`q`) or `exit` (`e`) to exit the program at any time.
 ### Example Flow
 
 ```
-$ python -m src.convunit
+$ python -m convunit
 
 > convert
 > length
@@ -76,14 +76,14 @@ The CLI mode allows you to run commands directly from the terminal. It is best s
 All commands follow this pattern:
 
 ```bash
-python -m src.convunit <command> [arguments] [options]
+python -m convunit <command> [arguments] [options]
 ```
 
 Use `--help` with any command to see its specific options:
 
 ```bash
-python -m src.convunit convert --help
-python -m src.convunit history --help
+python -m convunit convert --help
+python -m convunit history --help
 ```
 
 ### Available Commands
@@ -94,8 +94,8 @@ Converts a value from one unit to another.
 
 **Usage:**
 ```bash
-python -m src.convunit convert <group> <from_type> <to_type> [amount]
-python -m src.convunit convert time <time_input...>
+python -m convunit convert <group> <from_type> <to_type> [amount]
+python -m convunit convert time <time_input...>
 ```
 
 **Behavior:**
@@ -104,10 +104,10 @@ python -m src.convunit convert time <time_input...>
 
 **Examples:**
 ```bash
-python -m src.convunit convert length meters feet 10
-python -m src.convunit convert mass kg g 5
-python -m src.convunit c time minutes seconds 90
-python -m src.convunit c time 5 years 10 months 10 days hours
+python -m convunit convert length meters feet 10
+python -m convunit convert mass kg g 5
+python -m convunit c time minutes seconds 90
+python -m convunit c time 5 years 10 months 10 days hours
 ```
 
 #### `groups` (or `g`)
@@ -115,7 +115,7 @@ python -m src.convunit c time 5 years 10 months 10 days hours
 Lists all available unit groups.
 
 ```bash
-python -m src.convunit groups
+python -m convunit groups
 ```
 
 #### `types` (or `t`)
@@ -123,8 +123,8 @@ python -m src.convunit groups
 Shows all unit types within a group (including aliases).
 
 ```bash
-python -m src.convunit types length
-python -m src.convunit types --all          # Show types from all groups
+python -m convunit types length
+python -m convunit types --all          # Show types from all groups
 ```
 
 **Flag:**
@@ -135,8 +135,8 @@ python -m src.convunit types --all          # Show types from all groups
 Shows the current base unit of a group.
 
 ```bash
-python -m src.convunit base length
-python -m src.convunit base --all           # Show base units for all groups
+python -m convunit base length
+python -m convunit base --all           # Show base units for all groups
 ```
 
 **Flag:**
@@ -147,8 +147,8 @@ python -m src.convunit base --all           # Show base units for all groups
 Displays recent conversions (default: last 10 entries).
 
 ```bash
-python -m src.convunit history
-python -m src.convunit history --limit 30
+python -m convunit history
+python -m convunit history --limit 30
 ```
 
 **Flags:**
@@ -160,8 +160,8 @@ python -m src.convunit history --limit 30
 Add or remove custom unit groups.
 
 ```bash
-python -m src.convunit manage-group weight add kilogram
-python -m src.convunit manage-group weight remove
+python -m convunit manage-group weight add kilogram
+python -m convunit manage-group weight remove
 ```
 
 > When creating a new group, the unit provided (`kilogram` in the example) automatically becomes the `base_unit` of that group.
@@ -171,8 +171,8 @@ python -m src.convunit manage-group weight remove
 Add or remove unit types inside an existing group.
 
 ```bash
-python -m src.convunit manage-type length kilometer add 1000
-python -m src.convunit manage-type length kilometer remove
+python -m convunit manage-type length kilometer add 1000
+python -m convunit manage-type length kilometer remove
 ```
 
 **Flags (for temperature):**
@@ -186,8 +186,8 @@ python -m src.convunit manage-type length kilometer remove
 Add or remove aliases for unit types.
 
 ```bash
-python -m src.convunit aliases length meter add mtr
-python -m src.convunit aliases length meter remove mtr
+python -m convunit aliases length meter add mtr
+python -m convunit aliases length meter remove mtr
 ```
 
 #### `change-base` (or `cb`)
@@ -195,7 +195,7 @@ python -m src.convunit aliases length meter remove mtr
 Changes the base unit of a group. All other units are recalculated relative to the new base.
 
 ```bash
-python -m src.convunit change-base length kilometer
+python -m convunit change-base length kilometer
 ```
 
 > **Warning:** This is a structural change. It affects internal storage but does not break existing conversions.
@@ -290,16 +290,16 @@ ConvUnit has a powerful and flexible system for handling dates, times, months, a
 
 The system accepts several input styles:
 
-| Format                        | Example                                      | Description |
-|-------------------------------|----------------------------------------------|-----------|
-| Simple unit conversion        | `minutes seconds 10`                         | Convert between time units |
-| Time string                   | `17h:28m:36s seconds`                        | Convert a time expression |
-| Flexible time string          | `50h:350m:780s seconds`                      | Accepts non-standard values (e.g. 350 minutes) |
-| Month name                    | `JAN days` or `January seconds`              | Convert a month to a unit |
-| Single date                   | `2019-11-04 days`                            | Convert a date to a unit (approximate) |
-| Flexible date                 | `5402-555-70 days`                           | Accepts large or unusual year/month/day values |
-| Date difference               | `2019-11-04 2056-04-28 days`                 | Accurate difference between two dates |
-| Multiple units                | `5 years 10 months 10 days hours`            | Sum several units into one result |
+| Format                        | Example                                      | Description                                      |
+|-------------------------------|----------------------------------------------|--------------------------------------------------|
+| **Time**                      | `17h:28m:36s seconds`                        | Convert a time string to a unit                  |
+| **Month name**                | `JAN days` or `January seconds`              | Convert a month to a unit                        |
+| **Single date**               | `2019-11-04 days`                            | Convert a date to a unit (approximate)           |
+| **Unit to Unit**              | `minutes seconds 10`                         | Simple conversion between time units             |
+| **Time difference**           | `17h:28m:36s 04h:15m:22s seconds`            | Difference between two times                     |
+| **Month difference**          | `JAN DEC days`                               | Difference between two months                    |
+| **Date difference**           | `2019-11-04 2056-04-28 days`                 | Accurate difference between two dates            |
+| **Multiple units sum**        | `5 years 10 months 10 days hours`            | Sum several units into one result                |
 
 ### How It Works
 
@@ -314,10 +314,10 @@ The system accepts several input styles:
 **Examples:**
 
 ```bash
-python -m src.convunit convert time 50h:350m:780s seconds
+python -m convunit convert time 50h:350m:780s seconds
 # Result: There are 201,780.0 seconds in 50h:350m:780s
 
-python -m src.convunit convert time 5402-555-70 days
+python -m convunit convert time 5402-555-70 days
 # Result: There are 1,990,002.45063 days in 5402 years, 555 months, 70 days
 ```
 
@@ -332,9 +332,9 @@ time
 
 **CLI Mode:**
 ```bash
-python -m src.convunit convert time 5 years 10 months 10 days hours
-python -m src.convunit convert time 2019-11-04 2056-04-28 days
-python -m src.convunit convert time JAN DEC days
+python -m convunit convert time 5 years 10 months 10 days hours
+python -m convunit convert time 2019-11-04 2056-04-28 days
+python -m convunit convert time JAN DEC days
 ```
 
 **API Mode:**
@@ -373,8 +373,8 @@ Every conversion performed (in any mode) is logged with a timestamp. History is 
 ### Viewing History
 
 ```bash
-python -m src.convunit history
-python -m src.convunit history --limit 30
+python -m convunit history
+python -m convunit history --limit 30
 ```
 
 In the API:
@@ -385,7 +385,7 @@ converter.history(limit=30)
 ### Clearing History
 
 ```bash
-python -m src.convunit history --reset
+python -m convunit history --reset
 ```
 
 Or in the API:
@@ -403,7 +403,7 @@ converter.reset_history()
 - **Shared data**: Changes made in any mode (Interactive, CLI, or API) are immediately visible in the others.
 - **Error handling**: Invalid units, unknown groups, or malformed inputs raise clear error messages in all modes.
 - **Date calculations**: Date differences are accurate (including leap years). Single-date conversions use average year/month lengths.
-- **No external dependencies**: The project uses only Python’s standard library.
+- **Dependencies**: The only runtime dependency is `platformdirs>=4.0` (for determining the user configuration directory across different operating systems). All other functionality uses Python’s standard library.
 
 ---
 
@@ -413,7 +413,7 @@ converter.reset_history()
 
 | Problem                              | Possible Cause                                      | Solution |
 |--------------------------------------|-----------------------------------------------------|----------|
-| `ModuleNotFoundError`                | Running `python src/convunit/main.py` directly | Always use `python -m src.convunit` |
+| `ModuleNotFoundError`                | Running `python src/convunit/main.py` directly      | Use `python -m convunit` (or install the package with `pip install -e .`) |
 | Custom units not appearing           | Running from a different working directory          | Run from the project root |
 | Strange results after `change-base`  | Expecting old base unit values                      | All conversions remain mathematically correct |
 | Date difference seems wrong          | Using single date format instead of two dates       | Use two dates for accurate difference |

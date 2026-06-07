@@ -11,7 +11,13 @@
 ### Removed
 
 
-## [1.2.1] - 2026-06-06
+## [1.2.1] - 2026-06-07
+### Changed
+- Improved `TODO.md`, `README.md` and `USAGE.md` to program's latest version
+- Cleaned up outdated references to development paths (`src.convunit`)
+
+
+## [1.2.0] - 2026-06-06
 ### Added
 - Created `errors.py` file
 - Added `__all__` on files
