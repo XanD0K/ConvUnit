@@ -11,13 +11,13 @@
 ### Removed
 
 
-## [1.2.1] - 2026-06-07
+## [1.1.0] - 2026-06-07
 ### Changed
 - Improved `TODO.md`, `README.md` and `USAGE.md` to program's latest version
 - Cleaned up outdated references to development paths (`src.convunit`)
 
 
-## [1.2.0] - 2026-06-06
+## [1.0.2] - 2026-06-06
 ### Added
 - Created `errors.py` file
 - Added `__all__` on files
@@ -37,7 +37,7 @@
 - Fixed and improved test files (`tests/`)
 
 
-## [1.1.0] - 2026-06-01
+## [1.0.1] - 2026-06-01
 ### Added
 - Created `src/` to be the source directory for the future  package
 - Added `__main__.py` to prepare the PyPI package
